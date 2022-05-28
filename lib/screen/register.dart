@@ -15,6 +15,40 @@ class _RegisterScreenState extends State<RegisterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Sign up")),
+      body: Container(
+          child: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Form(
+          child: SingleChildScrollView(
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(
+                "Email",
+                style: TextStyle(fontSize: 20),
+              ),
+              TextFormField(),
+              SizedBox(
+                height: 15,
+              ),
+              Text(
+                "Password",
+                style: TextStyle(fontSize: 20),
+              ),
+              TextFormField(),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  child: Text(
+                    "Sign up",
+                    style: TextStyle(fontSize: 20),
+                  ),
+                  onPressed: () {},
+                ),
+              ),
+            ]),
+          ),
+        ),
+      )),
     );
   }
 }
