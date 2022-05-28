@@ -11,6 +11,7 @@ class RegisterScreen extends StatefulWidget {
 }
 
 class _RegisterScreenState extends State<RegisterScreen> {
+  final formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,6 +20,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           child: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Form(
+          key: formKey,
           child: SingleChildScrollView(
             child:
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -26,7 +28,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 "Email",
                 style: TextStyle(fontSize: 20),
               ),
-              TextFormField(),
+              TextFormField(
+                keyboardType: TextInputType.emailAddress,
+              ),
               SizedBox(
                 height: 15,
               ),
@@ -34,7 +38,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 "Password",
                 style: TextStyle(fontSize: 20),
               ),
-              TextFormField(),
+              TextFormField(
+                obscureText: true,
+              ),
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
