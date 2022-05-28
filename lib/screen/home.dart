@@ -14,30 +14,33 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(10, 50, 10, 0),
-        child: Column(children: [
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton.icon(
-              onPressed: () {},
-              icon: Icon(Icons.add),
-              label: Text(
-                "Sign up",
-                style: TextStyle(fontSize: 20),
+        child: SingleChildScrollView(
+          child: Column(children: [
+            Image.asset("assets/images/108plaza.png"),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton.icon(
+                onPressed: () {},
+                icon: Icon(Icons.add),
+                label: Text(
+                  "Sign up",
+                  style: TextStyle(fontSize: 20),
+                ),
               ),
             ),
-          ),
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton.icon(
-              onPressed: () {},
-              icon: Icon(Icons.login),
-              label: Text(
-                "Sign in",
-                style: TextStyle(fontSize: 20),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton.icon(
+                onPressed: () {},
+                icon: Icon(Icons.login),
+                label: Text(
+                  "Sign in",
+                  style: TextStyle(fontSize: 20),
+                ),
               ),
             ),
-          ),
-        ]),
+          ]),
+        ),
       ),
     );
   }
