@@ -39,7 +39,14 @@
 
 ![err1](https://user-images.githubusercontent.com/100192085/172047958-ea7626f4-af7b-425e-9a4d-6657ca42d527.jpg)
 
-2.
+2. Forget @ field email
+
+![err3](https://user-images.githubusercontent.com/100192085/172047999-bdb04bde-2f39-461d-9e8f-b66efc58d8db.jpg)
+
+
+
+
+
 
 
 
