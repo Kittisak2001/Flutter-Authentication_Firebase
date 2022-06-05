@@ -43,6 +43,13 @@
 
 ![err3](https://user-images.githubusercontent.com/100192085/172047999-bdb04bde-2f39-461d-9e8f-b66efc58d8db.jpg)
 
+3. Password must be more than 6 characters. [Notification]
+
+![err2](https://user-images.githubusercontent.com/100192085/172047989-cabc3d4c-17b3-45dc-8e92-ff294a067bc7.jpg)
+
+4. Duplicate Address 
+
+![err4](https://user-images.githubusercontent.com/100192085/172048026-052d47f5-a1b8-4971-9a0c-7cfaecca3698.jpg)
 
 
 
