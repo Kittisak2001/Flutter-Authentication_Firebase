@@ -33,7 +33,13 @@
 ![page8](https://user-images.githubusercontent.com/100192085/172047912-1e972525-5f30-4e3d-aa51-0cfe0790ebab.jpg)
 
 
+# Error catch
 
+1. Forget email, password
+
+![err1](https://user-images.githubusercontent.com/100192085/172047958-ea7626f4-af7b-425e-9a4d-6657ca42d527.jpg)
+
+2.
 
 
 
